@@ -25,7 +25,7 @@ let listaDeCompras = [];
         listaElement.innerHTML = '';
         
         listaDeCompras.forEach(item => {
-            const listItem = document.createElement('li');
+            const listItem = document.createElement('ol');
             listItem.textContent = `${item.produto} - R$ ${item.valor.toFixed(2)} x ${item.quantidade}`;
             listaElement.appendChild(listItem);
         });

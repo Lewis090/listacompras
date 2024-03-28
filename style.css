@@ -1,6 +1,7 @@
 * {
 
   box-sizing: border-box;
+  padding: auto;
 }
 
 h1{
@@ -19,13 +20,20 @@ h1{
 }
 
 #lista{
-  width: auto;
-  height: auto;
+  padding: 0% 13% 5% 0%;
+   height: 100px;
   box-sizing: border-box;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
   color: black ;
  
+}
+.lista{
+  background-color: aliceblue;
+  height: auto;
+  width: 250px;
+  border-radius: 3%;
+  padding: 0px 5px 10px;
 }
 
 #total{
